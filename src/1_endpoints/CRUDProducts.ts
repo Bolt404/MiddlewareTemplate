@@ -4,7 +4,7 @@ class CRUDProduct{
    // En mockup af en database (in memory) - se REDIS senere
    private static products: Map<number, IProduct> = new Map<number, IProduct>();
    
-   private static size: number =0;
+   private static size: number = 0;
 
    constructor(){
       CRUDProduct.products.set(1, {'title':'milk','decription':'dairy product','price':14});
