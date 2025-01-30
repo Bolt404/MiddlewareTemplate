@@ -16,7 +16,7 @@ class CRUDProduct{
 
         // (2) Vi vil finde nummeret på næste produkt som autonummer
         CRUDProduct.size++;
-        let no:number = CRUDProduct.size; 
+        let no:number = CRUDProduct.size;
         // lidt debug...
         console.log("det næste produkt-id er = " + no);
 
